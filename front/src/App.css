@@ -1,6 +1,7 @@
 *{
  font-family:Verdana, Geneva, Tahoma, sans-serif;
  background-color:rgb(rgb(204, 200, 200));
+ 
 }
 .container {
     width: 80%;
@@ -8,9 +9,9 @@
     margin: 0 auto;
     text-align: center;
     padding: 40px;
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
   }
   .titulo{
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
@@ -20,7 +21,7 @@
   }
   .estado {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #333;
+    color:red;
     font-size: 10px;
     margin-bottom: 20px;
   }
@@ -63,7 +64,7 @@
     background-color: #0056b3;
   }
   .btnEliminar{
-    background-color:red;
+    background-color:orangered;
     color: #fff;
     padding: 5px 10px 5px;
     margin: 10px;

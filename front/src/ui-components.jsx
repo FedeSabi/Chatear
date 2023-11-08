@@ -13,7 +13,7 @@ const UlMensajes = styled.ul`
 const LiMensaje = styled.li`
   background-color: lightblue;
   border: 2px solid dodgerblue;
-  border-radius: 10px; /* Agregué bordes redondeados */
+  border-radius: 20px; /* Agregué bordes redondeados */
   padding: 10px; /* Ajusté el padding */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregué una suave sombra */
 `;
