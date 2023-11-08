@@ -1,0 +1,68 @@
+*{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ background-color:rgb(rgb(204, 200, 200));
+}
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .estado {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .btnEliminar{
+    background-color:red;
+    color: #fff;
+    padding: 5px 10px 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
