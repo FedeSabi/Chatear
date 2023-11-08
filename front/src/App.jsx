@@ -101,6 +101,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className="titulo">Chatear</h1>
       <h2 className="estado">{isConnected ? "CONECTADO" : "NO CONECTADO"}</h2>
       <UlMensajes>
         {messages.map((message, index) => (
