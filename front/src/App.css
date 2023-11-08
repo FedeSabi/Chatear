@@ -1,75 +1,77 @@
-*{
- font-family:Verdana, Geneva, Tahoma, sans-serif;
- background-color:rgb(rgb(204, 200, 200));
- 
+* {
+  font-family: monospace;
+  background-color: rgb(rgb(204, 200, 200));
 }
 .container {
-    width: 80%;
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 40px;
-    background-color:#f2f2f2;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
-  }
-  .titulo{
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    font-size: 40px;
-    color:slateblue;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
+}
+.titulo {
+  font-family: monospace;
+  font-size: 40px;
+  color: slateblue;
+}
+.logo{
+  font-size: 100px;
+  color:orangered;
+}
+.estado {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: red;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
 
-  }
-  .estado {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:red;
-    font-size: 10px;
-    margin-bottom: 20px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin: 5px 0;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  ul li:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  .btnEliminar{
-    background-color:orangered;
-    color: #fff;
-    padding: 5px 10px 5px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.btnEliminar {
+  background-color: orangered;
+  color: #fff;
+  padding: 5px 10px 5px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

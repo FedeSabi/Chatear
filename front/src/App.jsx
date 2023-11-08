@@ -4,6 +4,7 @@ import "./App.css";
 import { io } from "socket.io-client";
 import { LiMensaje, UlMensajes } from "./ui-components";
 const socket = io("http://localhost:3000");
+import { MdOutlineReduceCapacity } from "react-icons/md";
 
 function App() {
   const [isConnected, setIsConnected] = useState(false);
@@ -48,6 +49,7 @@ function App() {
 
   return (
     <div className="container">
+      <MdOutlineReduceCapacity className="logo" />
       <h1 className="titulo">Chatear</h1>
       <h2 className="estado">{isConnected ? "CONECTADO" : "NO CONECTADO"}</h2>
       <p className="usuario-conectado">Usuario: {userName}</p>
