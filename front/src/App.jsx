@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import { io } from "socket.io-client";
 import { LiMensaje, UlMensajes } from "./ui-components";
-const socket = io("http://localhost:3000");
+const socket = io("https://chatearback.onrender.com");   //http://localhost:3000
 import { MdOutlineReduceCapacity } from "react-icons/md";
 
 function App() {

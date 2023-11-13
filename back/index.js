@@ -1,27 +1,3 @@
-/*
-const http = require("http");
-
-const server = http.createServer();
-
-const io = require("socket.io")(server, {
-  cors: { origin: "*" },
-});
-
-io.on("connection", (socket) => {
-  console.log("se conecto un usuario");
-
-  socket.broadcast.emit("envio_mensaje", {
-    usuario: "INFO",
-    mensaje: "Usuario nuevo conectado",
-  });
-
-  socket.on("envio_mensaje", (data) => {
-    io.emit("envio_mensaje", data);
-  });
-});
-
-server.listen(3000);
-*/
 
 const http = require("http");
 const server = http.createServer();
