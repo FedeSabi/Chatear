@@ -2,7 +2,7 @@
 const http = require("http");
 const server = http.createServer();
 const io = require("socket.io")(server, {
-  cors: { origin: "*" },
+  cors: { origin: "100.20.92.101" },
 });
 
 const messages = [];
