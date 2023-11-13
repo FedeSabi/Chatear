@@ -1,3 +1,4 @@
+const express = require ("express")
 const cors = require ("cors")
 
 const http = require("http");
@@ -6,6 +7,7 @@ const io = require("socket.io")(server, {
   cors: { origin: "*" },
 });
 
+const app = express();
 app.use(cors());
 
 const messages = [];
