@@ -1,9 +1,12 @@
+const cors = require ("cors")
 
 const http = require("http");
 const server = http.createServer();
 const io = require("socket.io")(server, {
-  cors: { origin: "100.20.92.101" },
+  cors: { origin: "*" },
 });
+
+app.use(cors());
 
 const messages = [];
 const deletedMessages = [];
